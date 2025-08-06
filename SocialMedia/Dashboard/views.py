@@ -11,8 +11,6 @@ def register_view(request):
             user = user_form.save(commit=False)
             user.set_password(user_form.cleaned_data['password'])
             user.save()
-
-            # Update the profile created by signal
             user.profile.twitter_handle = profile_form.cleaned_data['twitter_handle']
             user.profile.facebook_handle = profile_form.cleaned_data['facebook_handle']
             user.profile.save()
