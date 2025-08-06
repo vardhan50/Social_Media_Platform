@@ -1,7 +1,6 @@
-# Dashboard/views.py
 from django.shortcuts import render, redirect
 from .forms import UserRegisterForm, ProfileForm
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import login
 from django.contrib.auth.decorators import login_required
 
 def register_view(request):
