@@ -28,7 +28,7 @@ This project uses **dummy data** (no real API integration) and is intended for l
 ## ⚙️ Setup Instructions
 
 1. **Clone the repository**
-   --> git clone https://github.com/yourusername/social-media-dashboard.git
+   --> git clone (https://github.com/vardhan50/Social_Media_Platform.git)
    --> cd social_media_dashboard
 
 2. **create and activate a virtual environment**
